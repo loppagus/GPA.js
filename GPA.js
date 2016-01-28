@@ -1,13 +1,13 @@
 //p5.GPA.js is a general use library with verious functions that will help with 
 //converstions and usefull short cuts
 
-//convert celsius to fehrenheit
+//convert celsius to fahrenheit
 function ctf(temp) {
   var out = temp * 1.800 + 32;
   return out;
 }
 
-//convert fehrenheit to celsius
+//convert fahrenheit to celsius
 function ftc(temp) {
   var out = (temp-32)/ 1.800;
   return out;
